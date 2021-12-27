@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>wsus-manager</id>
+        <version>$VERSIONHERE$</version>
+        <authors>Marcelo Sizer</authors>
+        <description>Powershell module to manage WSUS</description>
+    </metadata>
+    <files>
+        <file src="wsus-manager.psd1" />
+        <file src="wsus-manager.psm1" />
+        <file src="public\*.*" target="public" />
+    </files>
+
+</package>
