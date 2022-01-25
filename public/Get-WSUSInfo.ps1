@@ -46,7 +46,7 @@ function Get-WSUSInfo {
     begin {
         # Loads variables
         $pathHome = # Define path to store variables loaded by the script
-		    $fileServer = # Path to file server
+		$fileServer = # Path to file server
         $PUServers = @()
         $hashFunction = @{
             AllFunctions = @(

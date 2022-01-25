@@ -15,7 +15,7 @@ Function Get-WSUSLastReport {
 
         Description
         -----------
-        Coleta os computadores que não reportam ao servidor de WSUS há mais de 30 dias.
+        Gathers information from servers that are not reporting to WSUS for over 30 days.
 
     .EXAMPLE
         Get-WSUSLastReport -Date 90
